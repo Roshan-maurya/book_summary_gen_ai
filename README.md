@@ -38,12 +38,12 @@ book_ai_full/
 
 ## Setup Steps
 
-Step 1. Clone and Repository
+#### Step 1. Clone and Repository
 
    git clone https://github.com/Roshan-maurya/book_summary_gen_ai.git
    cd book_summary_gen_ai
 
-Step 2. Download PostgreSQL and Install
+#### Step 2. Download PostgreSQL and Install
 
    1. Create Database: CREATE DATABASE book_ai;
    2. Note your PostgreSQL credentials:
@@ -58,15 +58,15 @@ Step 2. Download PostgreSQL and Install
    4. Create database table
       python create_db.py
 
-Step 3. Download and Install Ollama
+#### Step 3. Download and Install Ollama
 
    -Once download in your machine. Pull mdoel. In this application, I have used llama3.2
    -If you want to use a different model, update ai_service.py:
          model = 'llama3.2'
 
-step 4. Add JWT and application secret key in config.py
+#### step 4. Add JWT and application secret key in config.py
 
-Step 5. Create Python Virtual Environment where your install project related library.
+#### Step 5. Create Python Virtual Environment where your install project related library.
 
    1. python -m venv ai_env
 
@@ -76,11 +76,11 @@ Step 5. Create Python Virtual Environment where your install project related lib
    3. Mac/Linux
       source ai_env/bin/activate
 
-Step 6. Install Dependencies
+#### Step 6. Install Dependencies
 
    pip install -r requirements.txt
 
 
-Step 7: Run the Application
+#### Step 7: Run the Application
 
    python run.py
