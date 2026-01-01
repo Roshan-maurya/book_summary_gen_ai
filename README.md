@@ -1,4 +1,8 @@
 # Book AI System (Flask + PostgreSQL + JWT + Ollama)
+
+A Flask-based backend application that allows admin users to add books and automatically generates AI-based summaries asynchronously using a background thread.
+The application uses PostgreSQL for persistence, JWT-based authentication, and role-based access control.
+
 # Project Structer
 book_ai_full/
 │
