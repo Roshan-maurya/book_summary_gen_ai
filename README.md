@@ -32,11 +32,15 @@ book_ai_full/
 │       └── row_required.py
 │
 ├── create_db.py
+├── .env.example 
 ├── run.py
 ├── requirements.txt
 ├── README.md
 
 ## Setup Steps
+
+#### .env.example 
+Use this sample .env file to check how to give your credentials in .env file
 
 #### Step 1. Clone and Repository
 
